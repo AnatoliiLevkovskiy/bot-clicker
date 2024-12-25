@@ -1,0 +1,17 @@
+{
+  "name": "bot-clicker",
+  "version": "1.0.0",
+  "description": "bot playwright",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --experimental-strip-types src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@swc/wasm-typescript": "^1.7.14",
+    "playwright": "^1.46.1",
+    "@types/node": "^22.5.0"
+  }
+}
